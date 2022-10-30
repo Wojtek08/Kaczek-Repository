@@ -39,11 +39,12 @@ header a {
     margin-right: auto;
     margin-left: auto;
     /* border: 2px solid red; */
-    justify-content: center;
     position: sticky;
     top: 0;
     background-color: rgb(100 100 100);
     flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 5px white;
 }
 
 .navbar a {
@@ -81,6 +82,7 @@ header h1 {
 main {
     display: flex;
     width: 90%;
+    max-width: 1627px;
     height: auto;
     margin-top: 20px;
     /* border: 2px solid red; */
@@ -101,11 +103,11 @@ main {
     height: fit-content;
     margin-right: 20px;
     margin-left: 20px;
+    margin-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
     color: white;
-    font-family: Novaround, sans-serif;
-    justify-content: center;
+    font-family: Nova round, sans-serif;
     text-align: center;
     flex-wrap: wrap;
     border: 2px solid white;
@@ -120,6 +122,7 @@ main {
 .links article {
     width: 100%;
     margin: 0px;
+    padding-bottom: 10px;
 }
 
 .links article ul {
@@ -149,6 +152,7 @@ main {
     background-color:rgb(100 100 100);
 }
 
+
 main .article2 {
     margin-left: 20px;
     margin-right: 20px;
@@ -167,6 +171,11 @@ main .article2 {
 main .article2 h1 {
     margin: 0px;
     padding-top: 20px;
+}
+
+main .article2 h2 {
+    margin:0px;
+    margin-top: 10px;
 }
 
 main .article2 h3 {
@@ -190,6 +199,7 @@ footer {
     /* border: 2px solid red; */
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     padding-top: 20px;
     justify-content: center;
     flex-wrap: wrap;
@@ -266,7 +276,7 @@ footer li:not(li:first-of-type):hover {
 
 
 #footerer {
-    width: 90%;
+    width: 100%;
     height: 65px;
     margin-left: auto;
     margin-right: auto;
@@ -274,7 +284,7 @@ footer li:not(li:first-of-type):hover {
     text-align: center;
 }
 
-#foot2 {
+#footerer div {
     /* border: 2px solid red; */
     width: fit-content;
     margin-top: 0px;
@@ -282,12 +292,11 @@ footer li:not(li:first-of-type):hover {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
     font-size: small;
     color: rgba(100, 100, 100, 0.85);
 }
 
-#foot2 span:hover {
+#footerer span:hover {
     text-decoration: underline;
     cursor: pointer;
     color: rgb(196, 219, 226);
